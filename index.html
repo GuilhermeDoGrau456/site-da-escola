@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Portfólio do Guilherme</title>
+    <style>
+        .flamengo-bg {
+            background: linear-gradient(135deg, #cc092f 0%, #8b0000 100%);
+            color: white;
+        }
+        .flamengo-text {
+            color: #cc092f;
+        }
+        .avatar-img {
+            border: 5px solid white;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            transition: transform 0.3s ease;
+        }
+        .avatar-img:hover {
+            transform: scale(1.05);
+        }
+        .section-img {
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+            height: 250px;
+            object-fit: cover;
+            width: 100%;
+        }
+        .section-img:hover {
+            transform: scale(1.03);
+        }
+        .game-dev-bg {
+            background-color: #f8f9fa;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Header com avatar do CR7 -->
+    <header class="container text-center py-5 flamengo-bg">
+        <img src="img/cr7-profile.jpg" alt="Avatar do CR7" class="rounded-circle avatar-img" width="200" height="200">
+        <h1 class="mt-3">Guilherme <span class="text-black">Flamengo</span></h1>
+        <p class="lead">Desenvolvedor | FlaMenguista | Inspirado pelo CR7</p>
+    </header>
+
+    <!-- Seção sobre Flamengo -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 mb-4 mb-md-0">
+                    <img src="img/flamengo-team.jpg" alt="Time do Flamengo" class="section-img">
+                </div>
+                <div class="col-md-6">
+                    <h2 class="flamengo-text mb-4">Minha Paixão pelo Mengão</h2>
+                    <p class="fs-5">
+                        O Flamengo não é apenas um time, é uma paixão que corre no sangue. Desde criança, acompanho cada jogo, 
+                        cada gol, cada título. A garra dos jogadores em campo me inspira a ser melhor todos os dias, tanto 
+                        na vida pessoal quanto profissional.
+                    </p>
+                    <p class="fs-5">
+                        Minha maior inspiração vem da dedicação do CR7, que mesmo não sendo do Flamengo, representa a 
+                        disciplina e excelência que tento aplicar no meu trabalho com programação.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção sobre Programação -->
+    <section class="py-5 game-dev-bg">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-6 order-md-2 mb-4 mb-md-0">
+                    <img src="img/code-screen.jpg" alt="Tela de programação" class="section-img">
+                </div>
+                <div class="col-md-6 order-md-1">
+                    <h2 class="flamengo-text mb-4">Desenvolvimento e Programação</h2>
+                    <p class="fs-5">
+                        Assim como no futebol, na programação a prática leva à perfeição. Meu foco atual é:
+                    </p>
+                    <ul class="fs-5">
+                        <li>Desenvolvimento web (HTML, CSS, JavaScript)</li>
+                        <li>Lógica de programação e algoritmos</li>
+                        <li>Criação de projetos pessoais</li>
+                        <li>Desenvolvimento de jogos simples</li>
+                    </ul>
+                    <p class="fs-5">
+                        Meu objetivo é combinar minhas duas paixões criando aplicações esportivas e interativas.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer simples -->
+    <footer class="py-4 flamengo-bg text-white text-center">
+        <div class="container">
+            <p class="mb-0">© 2024 Guilherme - Programador e FlaMenguista</p>
+            <small>Todos os direitos reservados</small>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

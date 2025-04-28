@@ -1,0 +1,82 @@
+/* Estilos gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+/* Classes de cores temáticas */
+.flamengo-bg {
+    background: linear-gradient(135deg, #cc092f 0%, #8b0000 100%);
+    color: white;
+}
+
+.flamengo-text {
+    color: #cc092f;
+}
+
+.game-dev-bg {
+    background-color: #f8f9fa;
+}
+
+/* Avatar */
+.avatar-img {
+    border: 5px solid white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.avatar-img:hover {
+    transform: scale(1.05);
+}
+
+/* Botões */
+.btn-flamengo {
+    background-color: #cc092f;
+    color: white;
+    transition: all 0.3s ease;
+    border: none;
+}
+
+.btn-flamengo:hover {
+    background-color: #a00826;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Cards */
+.card {
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+}
+
+.list-group-item {
+    border-left: none;
+    border-right: none;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .avatar-img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    section {
+        padding: 3rem 0;
+    }
+}
+
+/* Animações */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.container, .row {
+    animation: fadeIn 0.8s ease-out;
+}
